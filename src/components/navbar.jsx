@@ -6,14 +6,14 @@ export function Navbar() {
     <nav className='bg-[#02042A] w-full'>
       <div className='flex items-center h-[80px] justify-center gap-x-12'>
 
-        <div className='flex items-center justify-start w-full md:w-auto md:ml-5'>
+        <div className='flex items-center justify-start w-full md:w-auto !ml-5'>
           <a href="/">
-            <img src="./src/assets/razorpaylogo.svg" alt="" className='w-32 h-32' />
+            <img src="./src/assets/razorpaylogo.svg" alt="" className='w-32 h-2' />
           </a>
         </div>
 
         {/* Mobile Menu Toggle (Hamburger Icon) */}
-          <div className='md:hidden flex items-center justify-end'>
+          <div className='md:hidden flex items-center justify-end !mr-5'>
             <button className='mr-5'>
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
@@ -63,7 +63,7 @@ export function Navbar() {
 
         </ul>
 
-        <div className='hidden md:flex items-center gap-4'>
+        <div className='hidden md:flex items-center gap-6'>
 
           <img src="./src/assets/india_flag.png" alt="" className='h-[20px] w-[30px]' />
 
