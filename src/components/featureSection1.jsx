@@ -1,7 +1,8 @@
 export function FeatureSectionOne() {
 
     return <>
-        <section className="w-full">
+        <section className="w-full !h-auto !mt-14 pt-[20rem] flex flex-col
+        items-center">
 
             {/* Part1 */}
             <div className="w-full flex flex-col items-center justify-center gap-3 !mt-10 !mb-6">
@@ -104,7 +105,7 @@ export function FeatureSectionOne() {
 
 
             {/* Another Part */}
-            <div className="w-full flex items-center justify-center !mt-10">
+            <div className="w-full justify-center !mt-10 !h-auto pt-[20rem] flex flex-col items-center">
 
                 <div className=" w-[71%] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3">
 
