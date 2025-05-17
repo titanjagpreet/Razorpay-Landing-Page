@@ -1,8 +1,7 @@
 export function FeatureSectionTwo() {
 
     return <>
-        <section className="relative bg-[url('./assets/feature-section2-bg.svg')] bg-no-repeat bg-[length:205%]
-            w-full !mt-10 flex flex-col items-center !pb-150 bg-[left_40%_top_10%_right_30%]">
+        <section className="relative w-full !mt-10 flex flex-col items-center !pb-80 bg-[#181C2E]">
 
             <div className="!mt-42 mx-auto my-auto relative ">
 
